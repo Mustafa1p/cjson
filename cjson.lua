@@ -24,7 +24,7 @@ a string, a number, a boolean, `nil`, `json.null` or any object with
 a function `__tojson` in its metatable. A table can only use strings
 and numbers as keys and its values have to be valid objects as
 well. It raises an error for any invalid data types or reference
-cycles.
+cycles..
 `state` is an optional table with the following fields:
   - `indent`  
     When `indent` (a boolean) is set, the created string will contain
